@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d43c6dd0f5b42a4483e4b010c078eb0, type: 3}
+  m_Name: Quest 1
+  m_EditorClassIdentifier: 
+  type: 0
+  nameQuest: Survive 2 mins
+  description: Survive 2 minutes
+  targetValue: 120
+  currentValue: 0
+  targetCubeType: 3
+  isTimeQuest: 1
