@@ -42,7 +42,7 @@ public class ObjectPool : MonoBehaviour
             if(!redCube.activeInHierarchy) return redCube;
         }
 
-        GameObject newRedCube = Instantiate(redCubePrefab);
+        GameObject newRedCube = Instantiate(redCubePrefab, poolParent);
         newRedCube.SetActive(false);
         redCubesPool.Add(newRedCube);
         return newRedCube;
@@ -55,7 +55,7 @@ public class ObjectPool : MonoBehaviour
             if (!blueCube.activeInHierarchy) return blueCube;
         }
 
-        GameObject newBlueCube = Instantiate(blueCubePrefab);
+        GameObject newBlueCube = Instantiate(blueCubePrefab, poolParent);
         newBlueCube.SetActive(false);
         blueCubesPool.Add(newBlueCube);
         return newBlueCube;
